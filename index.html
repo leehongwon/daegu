@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대구광역시</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/35d207185e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <!-- 모달 레이어 팝업 -->
+    <div class="popupBG"></div>
+    <!-- 헤더 서치 -->
+    <div class="top-search">
+        <div class="search-area">
+            <div class="search-con">
+                <input type="text" placeholder="검색어를 입력하세요.">
+                <button class="srh-search">
+                    <img src="images/search-icon.png" alt="서치">
+                </button>
+            </div>
+            <dl class="search-tag">
+                <dt>추천검색어</dt>
+                <dd>
+                    <button>#채용</button>
+                    <button>#아파트</button>
+                    <button>#클린로드</button>
+                    <button>#미분양</button>
+                    <button>#인사</button>
+                    <button>#대학생인턴</button>
+                </dd>
+            </dl>
+            <button class="srh-close">
+                <img src="images/close.png" alt="닫기">
+            </button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <!-- 헤더 -->
+        <header>
+            <div class="container">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="로고">
+                    </a>
+                </div>
+                <!-- 네비 -->
+                <nav>
+                    <ul>
+                        <li class="depth1">
+                            <a href="#">대구</a>
+                            <ul class="depth2">
+                                <li><a href="#">히스토리</a></li>
+                                <li><a href="#">일반현황</a></li>
+                                <li><a href="#">시청안내</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">뉴스</a>
+                            <ul class="depth2">
+                                <li><a href="#">시정뉴스</a></li>
+                                <li><a href="#">시정영상</a></li>
+                                <li><a href="#">시정사진</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">정보공개</a>
+                            <ul class="depth2">
+                                <li><a href="#">행정정보공개</a></li>
+                                <li><a href="#">계약정보</a></li>
+                                <li><a href="#">정책실명제</a></li>
+                                <li><a href="#">감사정보</a></li>
+                                <li><a href="#">통합자료실</a></li>
+                                <li><a href="#">통계정보 </a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">민원·소통·참여</a>
+                            <ul class="depth2">
+                                <li><a href="#">공익제보</a></li>
+                                <li><a href="#">공직비리 익명신고</a></li>
+                                <li><a href="#">설문·투표</a></li>
+                                <li><a href="#">안전신문고</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">서비스</a>
+                            <ul class="depth2">
+                                <li><a href="#">문화·체육·관광</a></li>
+                                <li><a href="#">건강·보건·위생</a></li>
+                                <li><a href="#">교통</a></li>
+                                <li><a href="#">산업·경제</a></li>
+                                <li><a href="#">복지</a></li>
+                                <li><a href="#">소방·안전</a></li>
+                                <li><a href="#">여성·가족·교육</a></li>
+                                <li><a href="#">행정·재정·세정</a></li>
+                                <li><a href="#">도시주택·건설</a></li>
+                                <li><a href="#">환경</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 아이콘 -->
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="images/login-icon.png" alt="로그인">
+                    </a>
+                    <a href="#">
+                        <img src="images/language-icon.png" alt="언어">
+                    </a>
+                    <a href="#">
+                        <img src="images/search-icon.png" alt="검색">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- 메인 -->
+        <main>
+            <section class="main-container">
+                <h1>
+                    <p>오늘의 대구</p>
+                    <span>6월 12일 월요일 소식입니다</span>
+                </h1>
+                <div class="content">
+                    <div class="content-top">
+                        <div class="item-left">
+                            <p class="news">보도자료</p>
+                            <p class="date">2023.04.18</p>
+                            <a href="#">하천을 넘어 도시의 랜드마크로<em>신천이 달라집니다!</em></a>
+                            <p class="news-desc">매일 1급수 10만통 공급으로 더 깨끗하게 물과 숲, 사람이...</p>
+                            <video src="images/video1.mp4" muted poster="images/image0.png"></video>
+                        </div>
+                        <div class="item-mid">
+                            <article class="museum">
+                                <p class="news">보도자료</p>
+                                <p class="date">2023.04.18</p>
+                                <a href="#">대구미술관<em>'뮤지엄플러스' 신규운영</em></a>
+                                <p class="news-desc2">대구미술관은 2022 개정 교육과정 중 학습자<em>맞춤형 교육에 발맞춰 미술관 관람객의...</em></p>
+                                <img src="images/image1.png" alt="뮤지엄">
+                            </article>
+                        </div>
+                        <div class="item-right">
+                            <article class="covid19">
+                                <p class="news">코로나19 현황</p>
+                                <p class="date">2023.04.18</p>
+                                <a href="#">신규 435명<em>누적 1,352,716명</em></a>
+                                <p class="news-desc3">#질병관리청</p>
+                            </article>
+                            <article class="dust">
+                                <p class="news">보도자료</p>
+                                <p class="date">2023.04.17</p>
+                                <a href="#">대구경북 미세먼지<em>주의보 해제</em></a>
+                                <p class="news-desc3">2023년 4월 16일(일) 21시 기준 대구...</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-banner" data-aos="fade-up">
+                <div class="banner">
+                    <a href="#">신청하기
+                        <img src="images/right-btn.png" alt="오른족">
+                    </a>
+                </div>
+            </section>
+            <section class="main-visual">
+                <div class="left-box" data-aos="fade-right">
+                    <p>아름다운 도시 대구,<br>대구의 감성을 만끽해보자!</p>
+                    <a href="#">트립로드 바로가기</a>
+                </div>
+                <div class="right-box" data-aos="fade-left">
+                    <p>대구에서 일하고 싶다면, <br>신청을 바로바로!</em></p>
+                    <a href="#">공모·모집 바로가기</a>
+                </div>
+            </section> 
+            <section class="sns-banner">
+                <div class="sns-box">
+                    <h3>대구의 다양한 소식을 구독해보세요.</h3>
+                    <div class="sns-icon">
+                        <a href="#">
+                            <img src="images/youtube-icon.png" alt="유튜브">
+                        </a>
+                        <a href="#">
+                            <img src="images/facebook-icon.png" alt="페이스북">
+                        </a>
+                        <a href="#">
+                            <img src="images/blog-icon.png" alt="블로그">
+                        </a>
+                        <a href="#">
+                            <img src="images/insta-icon.png" alt="인스타">
+                        </a>
+                    </div>
+                </div>
+            </section> 
+            <section class="content-wrap">
+                <div class="wrap-left">
+                    <article class="wrap-box1">
+                        <p class="notice">공지사항</p>
+                        <p class="date">2023.04.18</p>
+                        <a href="#">제45차 공동주택<em>감사결과</em></a>
+                        <p class="notice-desc">#건축주택과</p>
+                    </article>
+                    <article class="wrap-box2">
+                        <p class="notice">공지사항</p>
+                        <p class="date">2023.04.13</p>
+                        <a href="#">2023년 지역산업<em>균형발전 유공포상 계획</em></a>
+                        <p class="notice-desc">#광역협력담당과</p>
+                    </article>
+                    <article class="wrap-box3">
+                        <p class="notice">알림존</p>
+                        <p class="date">2023.04.11</p>
+                        <a href="#">2023 시민, 공무원<em>정책제안 공모전</em></a>
+                        <p class="notice-desc">#정책제안공모전 #대구시 #시민과함께</p>
+                        <img src="images/image3.png" alt="이미지3">
+                    </article>
+                </div>
+                <div class="wrap-mid">
+                    <article class="wrap-box4">
+                        <p class="notice">핫이슈</p>
+                        <p class="date">2023.04.18</p>
+                        <a href="#">세계 책의 날,<em>대구 올해의 책과 함께...</em></a>
+                        <p class="notice-desc">#세계책의날 #대구시 #선포식</p>
+                        <img src="images/image2.png" alt="이미지2">
+                    </article>
+                    <article class="wrap-box5">
+                        <p class="notice">핫이슈</p>
+                        <p class="date">2023.04.18</p>
+                        <a href="#">엠폭스 환자 발생,<em>일상적인 접촉으로 인한..</em></a>
+                        <p class="notice-desc">#엠폭스 #대구 #접촉</p>
+                        <img src="images/image4.png" alt="이미지4">
+                    </article>
+                </div>
+                <div class="wrap-right">
+                    <article class="wrap-box6">
+                        <p class="notice">보도자료</p>
+                        <p class="date">2023.04.18</p>
+                        <a href="#">대구·광주 달빛고속철도<em>특별볍 공동추진</em></a>
+                        <p class="notice-desc">#대구광주 #달빛고속철도 #특별법 #공동추진</p>
+                        <img src="images/image5.png" alt="이미지5">
+                    </article>
+                    <article></article>
+                </div>
+            </section>
+            <section class="gallery">
+                <article class="video">
+                    <div class="video-title">
+                        <a href="#">
+                            <i class="fa-brands fa-youtube fa-2x" style="color: crimson"></i>
+                        </a>
+                        <p class="notice">Official 대구</p>
+                    </div>
+                    <div class="video-box">
+                        <a href="#" class="video-left">
+                            <img src="images/video-photo1.png" alt="비디오1">
+                            <p>[플라워 대구]활짝피는 대구</p>
+                        </a>
+                        <a href="#" class="video-right">
+                            <img src="images/video-photo2.png" alt="비디오2">
+                            <p>[김민정의 뉴스 브리핑]대구 시민 여러분~</p>
+                        </a>
+                    </div>
+                </article>
+                <article class="service">
+                    <div class="swiper mySwiper">
+                        <h3>대구시 운영 서비스</h3>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="service-box">
+                                    <div class="service-con1" id="ser">
+                                        <a href="#">
+                                            <img src="images/service1.png" alt="서비스2">
+                                            <span>서대구 역세권 개발</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service2.png" alt="서비스1">
+                                            <span>시정추진 우수부서</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con2" id="ser">
+                                        <a href="#">
+                                            <img src="images/service3.png" alt="서비스3">
+                                            <span>익명신고</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service4.png" alt="서비스4">
+                                            <span>대구 전기차 충전소</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con3" id="ser">
+                                        <a href="#">
+                                            <img src="images/service5.png" alt="서비스5">
+                                            <span>음악 창의도시 대구</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service6.png" alt="서비스6">
+                                            <span>대구 지도포털</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con4" id="ser">
+                                        <a href="#">
+                                            <img src="images/service7.png" alt="서비스7">
+                                            <span>대구시청 작은도서관</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service8.png" alt="서비스8">
+                                            <span>공무원 교육원</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-box">
+                                    <div class="service-con1" id="ser">
+                                        <a href="#">
+                                            <img src="images/service9.png" alt="서비스9">
+                                            <span>아동급식 정보마당</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service10.png" alt="서비스10">
+                                            <span>공익제보</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con2" id="ser">
+                                        <a href="#">
+                                            <img src="images/service11.png" alt="서비스11">
+                                            <span>규제정보 포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service12.png" alt="서비스12">
+                                            <span>대기오염 문자알림</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con3" id="ser">
+                                        <a href="#">
+                                            <img src="images/service13.png" alt="서비스13">
+                                            <span>D-데이터허브</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service14.png" alt="서비스14">
+                                            <span>대구시 통합모니터단</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con4" id="ser">
+                                        <a href="#">
+                                            <img src="images/service15.png" alt="서비스15">
+                                            <span>바른주차안내</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service16.png" alt="서비스16">
+                                            <span>블록체인 공동활용</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-box">
+                                    <div class="service-con1" id="ser">
+                                        <a href="#">
+                                            <img src="images/service17.png" alt="서비스17">
+                                            <span>안심하이소</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service18.png" alt="서비스18">
+                                            <span>도시브랜드 웹툰</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con2" id="ser">
+                                        <a href="#">
+                                            <img src="images/service19.png" alt="서비스19">
+                                            <span>자치법규</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service20.png" alt="서비스20">
+                                            <span>주민참여예산</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con3" id="ser">
+                                        <a href="#">
+                                            <img src="images/service21.png" alt="서비스21">
+                                            <span>청년안방</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service22.png" alt="서비스22">
+                                            <span>피플人대구</span>
+                                        </a>
+                                    </div>
+                                    <div class="service-con4" id="ser">
+                                        <a href="#">
+                                            <img src="images/service23.png" alt="서비스23">
+                                            <span>항공사진 플랫폼</span>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/service24.png" alt="서비스24">
+                                            <span>대상대피 / 급수시설</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" style="display: none;"></div>
+                        <div class="swiper-button-prev" style="display: none;"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </article>
+            </section>
+            <section class="tab">
+                <div class="tab_content">
+                    <input type="radio" name="tabmenu" id="tab01" checked>
+                    <label for="tab01">자주찾는 메뉴</label>
+                    <input type="radio" name="tabmenu" id="tab02">
+                    <label for="tab02">시민</label>
+                    <input type="radio" name="tabmenu" id="tab03">
+                    <label for="tab03">사업자</label>
+                    <input type="radio" name="tabmenu" id="tab04">
+                    <label for="tab04">관광객</label>
+            
+                    <div class="conbox con1">
+                        <div class="con-wrapper">
+                            <div class="box1">
+                                <a href="#">· 대구광역시 뉴스룸</a>
+                                <a href="#">· 민원신청</a>
+                                <a href="#">· 공보 / 보도자료</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 달구벌미소문자</a>
+                                <a href="#">· 수돗물 실시간 수질공개</a>
+                                <a href="#">· 청사안내 / 행정조직도</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 물가동향</a>
+                                <a href="#">· 통합예약</a>
+                                <a href="#">· 시민 안전보험</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 통합 모니터단</a>
+                                <a href="#">· 1366센터</a>
+                                <a href="#">· 바른주차 문자알림</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conbox con2">
+                        <div class="con-wrapper">
+                            <div class="box1">
+                                <a href="#">· 공보 / 보도해명</a>
+                                <a href="#">· 버스노선 / 교통정보</a>
+                                <a href="#">· 대구소식당신청</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 대구교육지원카드</a>
+                                <a href="#">· 대구지도포털</a>
+                                <a href="#">· 실시간대기정보</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 부동산정보조회</a>
+                                <a href="#">· 민원서류발급</a>
+                                <a href="#">· 대구AI허브</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 청년정책 / 창업허브</a>
+                                <a href="#">· 재해 재난 시민행동요령</a>
+                                <a href="#">· 시험/취업</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conbox con3">
+                        <div class="con-wrapper">
+                            <div class="box1">
+                                <a href="#">· 개별주택가격</a>
+                                <a href="#">· 규제개혁</a>
+                                <a href="#">· 도시계획</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 재정 예산정보</a>
+                                <a href="#">· 대구통계</a>
+                                <a href="#">· 시정주요업무계획</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 대구투자환경</a>
+                                <a href="#">· 자치법규검색</a>
+                                <a href="#">· 입찰정보</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 원스톱기업지원</a>
+                                <a href="#">· 계약정보</a>
+                                <a href="#">· 첨단산업단지</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conbox con4">
+                        <div class="con-wrapper">
+                            <div class="box1">
+                                <a href="#">· 관광지</a>
+                                <a href="#">· 숙박 / 음식</a>
+                                <a href="#">· 대구시티투어</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 걷기코스</a>
+                                <a href="#">· 명품관광코스</a>
+                                <a href="#">· 뷰티투어</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 관광안내지도신청</a>
+                                <a href="#">· 자전거투어</a>
+                                <a href="#">· 축제행사</a>
+                            </div>
+                            <div class="box1">
+                                <a href="#">· 의료관광</a>
+                                <a href="#">· 공연전시정보</a>
+                                <a href="#">· 공원</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- 푸터 -->
+        <footer>
+            <section class="bottom-nav">
+                <ul>
+                    <li class="depth1-1">
+                        <a href="#">직속기관 바로가기<i class="fa-solid fa-angle-up" style="color: #000000;"></i></a>
+                        <ul class="depth2-1">
+                            <li><a href="#">공무원교육원</a></li>
+                            <li><a href="#">보건환경연구원</a></li>
+                            <li><a href="#">농업기술센터</a></li>
+                            <li><a href="#">시민안전테마파크</a></li>
+                            <li><a href="#">중부소방서</a></li>
+                            <li><a href="#">동부소방서</a></li>
+                            <li><a href="#">서부소방서</a></li>
+                            <li><a href="#">북부소방서</a></li>
+                            <li><a href="#">수성소방서</a></li>
+                            <li><a href="#">달서소방서</a></li>
+                            <li><a href="#">달성소방서</a></li>
+                            <li><a href="#">강서소방서</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1-1">
+                        <a href="#">사업소 바로가기<i class="fa-solid fa-angle-up" style="color: #000000;"></i></a>
+                        <ul class="depth2-1">
+                            <li><a href="#">상수도사업본부</a></li>
+                            <li><a href="#">도시건설본부</a></li>
+                            <li><a href="#">도시관리본부</a></li>
+                            <li><a href="#">서울본부</a></li>
+                            <li><a href="#">차량등록사업소</a></li>
+                            <li><a href="#">농수산물도매시장관리사무소</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1-1">
+                        <a href="#">대구시 군·구 바로가기<i class="fa-solid fa-angle-up" style="color: #000000;"></i></a>
+                        <ul class="depth2-1">
+                            <li><a href="#">중구청</a></li>
+                            <li><a href="#">동구청</a></li>
+                            <li><a href="#">서구청</a></li>
+                            <li><a href="#">남구청</a></li>
+                            <li><a href="#">북구청</a></li>
+                            <li><a href="#">수성구청</a></li>
+                            <li><a href="#">달서구청</a></li>
+                            <li><a href="#">달성군청</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1-1">
+                        <a href="#">관련기관 바로가기<i class="fa-solid fa-angle-up" style="color: #000000;"></i></a>
+                        <ul class="depth2-1">
+                            <li><a href="#">정부/지자체 조직도</a></li>
+                            <li><a href="#">대구교통공사</a></li>
+                            <li><a href="#">대구도시개발공사</a></li>
+                            <li><a href="#">대구공공시설관리공단</a></li>
+                            <li><a href="#">달성군 시설관리공단</a></li>
+                            <li><a href="#">시의회</a></li>
+                            <li><a href="#">자치경찰위원회</a></li>
+                            <li><a href="#">대구광역시행복진흥사회서비스원</a></li>
+                            <li><a href="#">기타기관</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="info">
+                <ul>
+                    <li>
+                        <a href="#">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">저작권정책</a>
+                    </li>
+                    <li>
+                        <a href="#">뷰어다운로드</a>
+                    </li>
+                    <li>
+                        <a href="#">전화번호(FAX)안내</a>
+                    </li>
+                    <li>
+                        <a href="#">공공앱소개</a>
+                    </li>
+                    <li>
+                        <a href="#">XML</a>
+                    </li>
+                    <li>
+                        <a href="#">찾아오시는길</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-bottom">
+                <div class="f-logo">
+                    <img src="images/f-logo2.png" alt="푸터로고">
+                </div>
+                <div class="address">
+                    <span>동인청사 : (우 41911) 대구광역시 중구 공평로 88 / 산격청사 : (우 41542)대구광역시 북구 연암로 40 /전화번호 : 053-120, 053-803-0114</span>
+                    <span>© DAEGU METROPOLITAN CITY ALL RIGHTS RESERVED.</span>
+                </div>
+                <div class="call-logo">
+                    <img src="images/call-icon.png" alt="120로고">
+                </div>
+                <div class="wa-logo">
+                    <img src="images/f-image.png" alt="콜로고">
+                </div>
+            </section>
+            <a href="#" class="fa-solid fa-circle-arrow-up fa-3x" style="color: #000000;"></a>
+        </footer>
+    </div>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false,
+        // },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+     </script>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
